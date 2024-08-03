@@ -6,7 +6,17 @@
     list-style: none;
 }
 
+.f30 {
+    font-size: 30px !important;
+}
 
+.f20 {
+    font-size: 20px !important;
+}
+
+.color {
+    color: black;
+}
 
 body {
     width: 100%;
@@ -46,7 +56,6 @@ header {
             border-radius: 0 0 10px 10px;
             height: 100%;
             width: 100%;
-
             position: absolute;
 
             & img {
@@ -56,6 +65,28 @@ header {
                 object-fit: cover;
                 object-position: center;
             }
+        }
+
+        & .shortcuts {
+            position: relative;
+            height: 10%;
+            width: 100%;
+            display: flex;
+            margin: auto;
+            overflow: hidden;
+
+            & span {
+                font-size: 2em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            & .buy {
+                position: absolute;
+                right: 5px;
+            }
+
         }
 
         & .buscador {
@@ -209,6 +240,110 @@ main {
             }
         }
     }
+
+    & .datos {
+        left: 10px;
+        width: 100%;
+        height: 20%;
+        position: relative;
+        padding-top: 25px;
+
+        & h2 {
+            color: black;
+        }
+
+
+        & .ofertas {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            & .descuento {
+                color: aqua;
+            }
+
+            & .precio_viejo {
+                color: gray;
+                text-decoration: line-through;
+            }
+
+            & p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .color-picker {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 50px;
+
+        & label {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        & .color-options {
+            padding-left: 50px;
+            display: flex;
+            gap: 10px;
+
+            & .color-circle {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 2px solid transparent;
+                cursor: pointer;
+            }
+        }
+
+        .color-circle.white {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+        }
+
+        .color-circle.grey {
+            background-color: #c0c0c0;
+        }
+
+        .color-circle.black {
+            background-color: #000000;
+        }
+
+        .color-circle.blue {
+            background-color: #007bff;
+        }
+
+        .color-circle.selected {
+            border: 2px solid #007bff;
+        }
+
+
+    }
+
+    & .size {
+        & h3 {
+
+            position: absolute;
+            bottom: 50px;
+            display: block !important;
+        }
+
+        position: relative;
+        bottom: -200px;
+        height:10%;
+        width: 100%;
+        display: flex;
+
+        & button {
+            height: 100%;
+            width: 100%;
+        }
+
+    }
 }
 
 footer {
@@ -273,6 +408,36 @@ footer {
 
 
 }
+
+.Add_to_Cart {
+    width: 100%;
+    height: 20%;
+    & .container{
+        height: 80%;
+        width: 100%;
+        /* background-color: aquamarine; */
+        padding-top: 10%;
+        padding-bottom:10% ;
+
+        & .Cart{
+            width: 50%;
+            height: 5%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #007bff;
+            border-radius: 25px 25px;
+            color: #000000;
+            left: 25%;
+        }
+    }
+}
+
+
+
+
+
 
 ::-webkit-scrollbar {
     height: 0;
