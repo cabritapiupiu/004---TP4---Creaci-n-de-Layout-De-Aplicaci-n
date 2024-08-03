@@ -138,10 +138,13 @@ main {
         /* top: 10px; */
 
         .tendencias {
+            position: relative;
             display: flex;
             justify-content: space-between;
 
             p {
+                position: absolute;
+                right: 10px;
                 color: aqua;
             }
         }
@@ -225,6 +228,8 @@ footer {
         justify-content: space-between;
 
         & p {
+            position: absolute;
+            right: 10px;
             color: aqua;
         }
     }
