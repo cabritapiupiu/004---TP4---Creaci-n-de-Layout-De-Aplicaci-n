@@ -420,6 +420,7 @@ footer {
         padding-bottom:10% ;
 
         & .Cart{
+            bottom: 0;
             width: 50%;
             height: 5%;
             position: absolute;
