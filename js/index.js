@@ -1,5 +1,5 @@
-function Resto(id) {
-    localStorage.setItem("num_resto", id);
+function data_id(id) {
+    localStorage.setItem("id_prenda", id);
 }
 
 
@@ -15,11 +15,13 @@ fetch('../json/local.json')
 
         data.forEach(e => {
             e.stock.forEach(stock => {
+                document.querySelector(".pic").setAttribute("src", e.urllogo)
+
                 document.querySelector('.article').innerHTML +=
 
-
                     `    
-                    <a class="card color" href="">
+                    <a class="card color" href="../producto.html" onclick="data_id(${stock.id})" >
+                        
                         <div class="cabecera">
                             <img src="${stock.image}" alt="">
                         </div>
