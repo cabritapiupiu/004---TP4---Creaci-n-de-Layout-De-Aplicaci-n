@@ -6,8 +6,7 @@ fetch('../json/local.json')
                 if (localStorage.getItem("id_prenda") == stock.id) {
                     document.querySelector(".pic").setAttribute("src", stock.image);
                     console.log(stock.descuento)
-                    
-                    document.querySelector('main').innerHTML += `
+                      document.querySelector('main').innerHTML += `
                         <div class="datos">
                         <h2> ${stock.prenda}</h2>
                         <div class="ofertas">
