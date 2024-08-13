@@ -4,7 +4,7 @@ function data_id(id) {
 
 
 
-fetch('../json/local.json')
+fetch('json/local.json')
 
     .then(response => {
 
