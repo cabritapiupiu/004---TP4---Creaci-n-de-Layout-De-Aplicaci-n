@@ -739,6 +739,8 @@ footer {
     ;
 
     height: 20%;
+
+    
 }
 
 .Add_to_Cart {
@@ -760,7 +762,16 @@ footer {
         color: #000000;
 
     }
-
+    & .check_out{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007bff;
+        border-radius: 25px 25px;
+        color: #000000
+    }
 }
 
 ::-webkit-scrollbar {
