@@ -2,6 +2,10 @@ function data_id(id) {
     localStorage.setItem("id_prenda", id);
 }
 
+function id_tipo(id){
+    localStorage.setItem("id_tipo", id);
+}
+
 
 
 fetch('json/local.json')

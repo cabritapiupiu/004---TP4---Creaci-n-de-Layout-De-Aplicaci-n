@@ -1,130 +1,500 @@
 [
-    {
-      "id":1,
-      "nombre":"Urban Threads",
-      "weman":"true",
-      "man":"false",      
-      "urllogo":"https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
-      "ubicacion":"Calle 123",
-      "horario":"11am/11pm",
-      "caracter":"Tienda de ropa moderna y urbana que ofrece una selección cuidada de prendas de diseñadores emergentes. Aquí encontrarás desde camisetas gráficas hasta jeans de alta calidad, todo pensado para quienes buscan un estilo único y vanguardista.",
-      "stock": [
-        {
-          "id":1,
-          "prenda":"Naruto",
-          "description":"Esta remera trae estampada al protagonista de uno de los animes john más reconocidos hasta la época, nada más y nada menos que Naruto.",
-          "descuento":"25.99",
-          "precio_viejo":"40.00",
-          "image":"https://acdn.mitiendanube.com/stores/001/473/111/products/naruto-anime-manga-aesthetic-otaku-57-gris1-9425cc4ebc1fca957d16447081298358-1024-1024.jpg"
-        },
-        {
-            "id":2,
-            "prenda":"Todoroki",
-            "description":"remera blanca de todoroki sublimado de la salada.",
-            "descuento":"30.00",
-          "precio_viejo":"60.00",
-            "image":"https://http2.mlstatic.com/D_NQ_NP_671826-MLA45510104815_042021-O.webp"
-          },
-          {
-            "id":3,
-            "prenda":"Casper",
-            "description":"Remera sublimada del segundo fantasma más icónico del mundo porque el primero sos vos XD.",
-            "descuento":"35.00",
-            "precio_viejo":"75.00",
-            "image":"https://http2.mlstatic.com/D_NQ_NP_927596-MLA45357568129_032021-O.webp"
-          },
-          {
-            "id":4,
-            "prenda":"Cristina",
-            "description":"Remera sublimada uno de los presidentes más conocidos de Argentina.",
-            "descuento":"120.00",
-            "precio_viejo":"150.00",
-            "image":"https://http2.mlstatic.com/D_NQ_NP_936040-MLA69644505523_052023-O.webp"
-          },
-          {
-            "id":5,
-            "prenda":"Asuka",
-            "description":"Remera estampada de una de las waifus más  conocidas del 1500.",
-            "descuento":"15.00",
-            "precio_viejo":"35.00",
-            "image":"https://http2.mlstatic.com/D_NQ_NP_669457-MLA71420390471_082023-O.webp"
-          }
+  {
+    "id": 1,
+    "nombre": "Urban Threads",
+    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
+    "ubicacion": "Calle 123",
+    "horario": "11am/11pm",
+    "caracter": "Tienda de ropa moderna y urbana que ofrece una selección cuidada de prendas de diseñadores emergentes. Aquí encontrarás desde camisetas gráficas hasta jeans de alta calidad, todo pensado para quienes buscan un estilo único y vanguardista.",
+    "stock": [
+      {
+        "id": 1,
+        "prenda": "Naruto",
+        "description": "Esta remera trae estampada al protagonista de uno de los animes john más reconocidos hasta la época, nada más y nada menos que Naruto.",
+        "descuento": "25.99",
+        "precio_viejo": "40.00",
+        "tipo":"woman",
+        "image": "https://acdn.mitiendanube.com/stores/001/473/111/products/naruto-anime-manga-aesthetic-otaku-57-gris1-9425cc4ebc1fca957d16447081298358-1024-1024.jpg"
+      },
+      {
+        "id": 2,
+        "prenda": "Todoroki",
+        "description": "remera blanca de todoroki sublimado de la salada.",
+        "descuento": "30.00",
+        "precio_viejo": "60.00",
+        "tipo":"man",        
+        "image": "https://http2.mlstatic.com/D_NQ_NP_671826-MLA45510104815_042021-O.webp"
+      },
+      {
+        "id": 3,
+        "prenda": "Casper",
+        "description": "Remera sublimada del segundo fantasma más icónico del mundo porque el primero sos vos XD.",
+        "descuento": "35.00",
+        "precio_viejo": "75.00",
+        "tipo":"woman",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_927596-MLA45357568129_032021-O.webp"
+      },
+      {
+        "id": 4,
+        "prenda": "Cristina",
+        "description": "Remera sublimada uno de los presidentes más conocidos de Argentina.",
+        "descuento": "120.00",
+        "precio_viejo": "150.00",
+        "tipo":"man",        
+        "image": "https://http2.mlstatic.com/D_NQ_NP_936040-MLA69644505523_052023-O.webp"
+      },
+      {
+        "id": 5,
+        "prenda": "Asuka",
+        "description": "Remera estampada de una de las waifus más  conocidas del 1500.",
+        "descuento": "15.00",
+        "precio_viejo": "35.00",
+        "tipo":"woman",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_669457-MLA71420390471_082023-O.webp"
+      }
+    ],
+    "resenas": [
+      {
+        "name": "Maria",
+        "plato": "Asado",
+        "calif": "4",
+        "comentario": "Me encanta el sabor de la carne asada en Argentina.",
+        "foto": "https://randomuser.me/api/portraits/women/41.jpg"
+      },
+      {
+        "name": "Juan",
+        "plato": "Empanadas",
+        "calif": "5",
+        "comentario": "Las empanadas argentinas son deliciosas, especialmente las de carne.",
+        "foto": "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      {
+        "name": "Luisa",
+        "plato": "Milanesa",
+        "calif": "3",
+        "comentario": "La milanesa argentina es muy sabrosa, aunque a veces puede ser un poco pesada.",
+        "foto": "https://randomuser.me/api/portraits/women/43.jpg"
+      },
+      {
+        "name": "Pedro",
+        "plato": "Matambre",
+        "calif": "4",
+        "comentario": "El matambre a la pizza es una delicia típica de Argentina.",
+        "foto": "https://randomuser.me/api/portraits/men/44.jpg"
+      },
+      {
+        "name": "Ana",
+        "plato": "Locro",
+        "calif": "5",
+        "comentario": "El locro argentino es un plato muy reconfortante, especialmente en invierno.",
+        "foto": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      {
+        "name": "Carlos",
+        "plato": "Ñoquis",
+        "calif": "4",
+        "comentario": "Los ñoquis argentinos son una tradición en mi familia, siempre los comemos los 29 de cada mes.",
+        "foto": "https://randomuser.me/api/portraits/men/46.jpg"
+      },
+      {
+        "name": "Laura",
+        "plato": "Humita",
+        "calif": "3",
+        "comentario": "La humita argentina es una delicia hecha a base de choclo.",
+        "foto": "https://randomuser.me/api/portraits/women/47.jpg"
+      },
+      {
+        "name": "Diego",
+        "plato": "Provoleta",
+        "calif": "5",
+        "comentario": "La provoleta argentina es una excelente opción como entrada en un asado.",
+        "foto": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      {
+        "name": "Gabriela",
+        "plato": "Tarta",
+        "calif": "4",
+        "comentario": "Las tartas argentinas son muy versátiles y se pueden hacer con diferentes rellenos.",
+        "foto": "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      {
+        "name": "Fernando",
+        "plato": "Dulce de Leche",
+        "calif": "5",
+        "comentario": "El dulce de leche argentino es incomparable, lo uso para rellenar tortas y panqueques.",
+        "foto": "https://randomuser.me/api/portraits/men/50.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Vans",
+    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
+    "ubicacion": "Calle 123",
+    "horario": "11am/11pm",
+    "caracter": "El rancho del profe mas capo que pudo aber.",
+    "stock": [
+      {
+        "id": 1,
+        "prenda": "Zapas de Chaza",
+        "description": "Zapas usadas por chaza.",
+        "descuento": "25.99",
+        "precio_viejo": "40.00",
+        "tipo":"woman",
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/19/9917690_800.jpg"
+      },
+      {
+        "id": 2,
+        "prenda": "Zapas de Chaza",
+        "description": "Zapas usadas por chaza.",
+        "descuento": "30.00",
+        "precio_viejo": "60.00",
+        "tipo":"man",        
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/15/9903895_800.jpg"
+      },
+      {
+        "id": 3,
+        "prenda": "Zapas de Chaza",
+        "description": "Zapas usadas por chaza.",
+        "descuento": "35.00",
+        "precio_viejo": "75.00",
+        "tipo":"woman",
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/28/9944562_800.jpg"
+      },
+      {
+        "id": 4,
+        "prenda": "Zapas de Chaza",
+        "description": "Zapas usadas por chaza.",
+        "descuento": "120.00",
+        "precio_viejo": "150.00",
+        "tipo":"man",      
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2023/2/14/8097551.jpg"
+      },
+      {
+        "id": 5,
+        "prenda": "Asuka",
+        "description": "Remera estampada de una de las waifus más  conocidas del 1500.",
+        "descuento": "15.00",
+        "precio_viejo": "35.00",
+        "tipo":"woman",
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/28/9944441_800.jpg"
+      }
+    ],
+    "resenas": [
+      {
+        "name": "Maria",
+        "plato": "Asado",
+        "calif": "4",
+        "comentario": "Me encanta el sabor de la carne asada en Argentina.",
+        "foto": "https://randomuser.me/api/portraits/women/41.jpg"
+      },
+      {
+        "name": "Juan",
+        "plato": "Empanadas",
+        "calif": "5",
+        "comentario": "Las empanadas argentinas son deliciosas, especialmente las de carne.",
+        "foto": "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      {
+        "name": "Luisa",
+        "plato": "Milanesa",
+        "calif": "3",
+        "comentario": "La milanesa argentina es muy sabrosa, aunque a veces puede ser un poco pesada.",
+        "foto": "https://randomuser.me/api/portraits/women/43.jpg"
+      },
+      {
+        "name": "Pedro",
+        "plato": "Matambre",
+        "calif": "4",
+        "comentario": "El matambre a la pizza es una delicia típica de Argentina.",
+        "foto": "https://randomuser.me/api/portraits/men/44.jpg"
+      },
+      {
+        "name": "Ana",
+        "plato": "Locro",
+        "calif": "5",
+        "comentario": "El locro argentino es un plato muy reconfortante, especialmente en invierno.",
+        "foto": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      {
+        "name": "Carlos",
+        "plato": "Ñoquis",
+        "calif": "4",
+        "comentario": "Los ñoquis argentinos son una tradición en mi familia, siempre los comemos los 29 de cada mes.",
+        "foto": "https://randomuser.me/api/portraits/men/46.jpg"
+      },
+      {
+        "name": "Laura",
+        "plato": "Humita",
+        "calif": "3",
+        "comentario": "La humita argentina es una delicia hecha a base de choclo.",
+        "foto": "https://randomuser.me/api/portraits/women/47.jpg"
+      },
+      {
+        "name": "Diego",
+        "plato": "Provoleta",
+        "calif": "5",
+        "comentario": "La provoleta argentina es una excelente opción como entrada en un asado.",
+        "foto": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      {
+        "name": "Gabriela",
+        "plato": "Tarta",
+        "calif": "4",
+        "comentario": "Las tartas argentinas son muy versátiles y se pueden hacer con diferentes rellenos.",
+        "foto": "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      {
+        "name": "Fernando",
+        "plato": "Dulce de Leche",
+        "calif": "5",
+        "comentario": "El dulce de leche argentino es incomparable, lo uso para rellenar tortas y panqueques.",
+        "foto": "https://randomuser.me/api/portraits/men/50.jpg"
+      }
+    ]
+  },
 
-        
-      ],
-      
-      "resenas":[
-        {
-          
-          "name": "Maria",
-          "plato": "Asado",
-          "calif": "4",
-          "comentario": "Me encanta el sabor de la carne asada en Argentina.",
-          "foto": "https://randomuser.me/api/portraits/women/41.jpg"
-        },
-        {
-          "name": "Juan",
-          "plato": "Empanadas",
-          "calif": "5",
-          "comentario": "Las empanadas argentinas son deliciosas, especialmente las de carne.",
-          "foto": "https://randomuser.me/api/portraits/men/42.jpg"
-        },
-        {
-          "name": "Luisa",
-          "plato": "Milanesa",
-          "calif": "3",
-          "comentario": "La milanesa argentina es muy sabrosa, aunque a veces puede ser un poco pesada.",
-          "foto": "https://randomuser.me/api/portraits/women/43.jpg"
-        },
-        {
-          "name": "Pedro",
-          "plato": "Matambre",
-          "calif": "4",
-          "comentario": "El matambre a la pizza es una delicia típica de Argentina.",
-          "foto": "https://randomuser.me/api/portraits/men/44.jpg"
-        },
-        {
-          "name": "Ana",
-          "plato": "Locro",
-          "calif": "5",
-          "comentario": "El locro argentino es un plato muy reconfortante, especialmente en invierno.",
-          "foto": "https://randomuser.me/api/portraits/women/45.jpg"
-        },
-        {
-          "name": "Carlos",
-          "plato": "Ñoquis",
-          "calif": "4",
-          "comentario": "Los ñoquis argentinos son una tradición en mi familia, siempre los comemos los 29 de cada mes.",
-          "foto": "https://randomuser.me/api/portraits/men/46.jpg"
-        },
-        {
-          "name": "Laura",
-          "plato": "Humita",
-          "calif": "3",
-          "comentario": "La humita argentina es una delicia hecha a base de choclo.",
-          "foto": "https://randomuser.me/api/portraits/women/47.jpg"
-        },
-        {
-          "name": "Diego",
-          "plato": "Provoleta",
-          "calif": "5",
-          "comentario": "La provoleta argentina es una excelente opción como entrada en un asado.",
-          "foto": "https://randomuser.me/api/portraits/men/48.jpg"
-        },
-        {
-          "name": "Gabriela",
-          "plato": "Tarta",
-          "calif": "4",
-          "comentario": "Las tartas argentinas son muy versátiles y se pueden hacer con diferentes rellenos.",
-          "foto": "https://randomuser.me/api/portraits/women/49.jpg"
-        },
-        {
-          "name": "Fernando",
-          "plato": "Dulce de Leche",
-          "calif": "5",
-          "comentario": "El dulce de leche argentino es incomparable, lo uso para rellenar tortas y panqueques.",
-          "foto": "https://randomuser.me/api/portraits/men/50.jpg"
-        }
-      ]
-    }
+  {
+    "id": 3,
+    "nombre": "Canterbury",
+    "woman": "false",
+    "man": "true",
+    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
+    "ubicacion": "Calle 123",
+    "horario": "11am/11pm",
+    "caracter": "Local de una de las marcas mas caras de Argentia",
+    "stock": [
+      {
+        "id": 1,
+        "prenda": "Botines negros",
+        "description": "Botines negros para negros.",
+        "descuento": "177.00",
+        "precio_viejo": "221.00",
+        "tipo":"woman",
+        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/15/9905372_800.jpg"
+      },
+      {
+        "id": 2,
+        "prenda": "Botines azules",
+        "description": "Botines azules que notiene descuento pero son azules XD.",
+        "descuento": "226.00",
+        "precio_viejo": "202.750",
+        "tipo":"man",
+        "image": "https://canterbury.com.ar/storage/photos/shares/BOTINES/qb000071.png"
+      },
+      {
+        "id": 3,
+        "prenda": "Botines Rojos",
+        "description": "Botines rojos que si  notiene descuento no como los botines azules XD.",
+        "descuento": "178.800",
+        "precio_viejo": "229.500",
+        "tipo":"woman",
+        "image": "https://canterbury.com.ar/storage/photos/shares/BOTINES/Botinetas_12.png"
+      },
+      {
+        "id": 4,
+        "prenda": "Botines azules XD",
+        "description": "Remera estampada de una de las waifus más  conocidas del 1500.",
+        "descuento": "254.600",
+        "precio_viejo": "310.250",
+        "tipo":"man",
+        "image": "https://canterbury.com.ar/storage/photos/shares/BOTINES/chaussure-rugby-phoenix-team-sg-adulte-noir-canterbury-3.jpeg"
+      }
+    ],
+    "resenas": [
+      {
+        "name": "Maria",
+        "plato": "Asado",
+        "calif": "4",
+        "comentario": "Me encanta el sabor de la carne asada en Argentina.",
+        "foto": "https://randomuser.me/api/portraits/women/41.jpg"
+      },
+      {
+        "name": "Juan",
+        "plato": "Empanadas",
+        "calif": "5",
+        "comentario": "Las empanadas argentinas son deliciosas, especialmente las de carne.",
+        "foto": "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      {
+        "name": "Luisa",
+        "plato": "Milanesa",
+        "calif": "3",
+        "comentario": "La milanesa argentina es muy sabrosa, aunque a veces puede ser un poco pesada.",
+        "foto": "https://randomuser.me/api/portraits/women/43.jpg"
+      },
+      {
+        "name": "Pedro",
+        "plato": "Matambre",
+        "calif": "4",
+        "comentario": "El matambre a la pizza es una delicia típica de Argentina.",
+        "foto": "https://randomuser.me/api/portraits/men/44.jpg"
+      },
+      {
+        "name": "Ana",
+        "plato": "Locro",
+        "calif": "5",
+        "comentario": "El locro argentino es un plato muy reconfortante, especialmente en invierno.",
+        "foto": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      {
+        "name": "Carlos",
+        "plato": "Ñoquis",
+        "calif": "4",
+        "comentario": "Los ñoquis argentinos son una tradición en mi familia, siempre los comemos los 29 de cada mes.",
+        "foto": "https://randomuser.me/api/portraits/men/46.jpg"
+      },
+      {
+        "name": "Laura",
+        "plato": "Humita",
+        "calif": "3",
+        "comentario": "La humita argentina es una delicia hecha a base de choclo.",
+        "foto": "https://randomuser.me/api/portraits/women/47.jpg"
+      },
+      {
+        "name": "Diego",
+        "plato": "Provoleta",
+        "calif": "5",
+        "comentario": "La provoleta argentina es una excelente opción como entrada en un asado.",
+        "foto": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      {
+        "name": "Gabriela",
+        "plato": "Tarta",
+        "calif": "4",
+        "comentario": "Las tartas argentinas son muy versátiles y se pueden hacer con diferentes rellenos.",
+        "foto": "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      {
+        "name": "Fernando",
+        "plato": "Dulce de Leche",
+        "calif": "5",
+        "comentario": "El dulce de leche argentino es incomparable, lo uso para rellenar tortas y panqueques.",
+        "foto": "https://randomuser.me/api/portraits/men/50.jpg"
+      }
+    ]
+  },
+
+  
+  {
+    "id": 4,
+    "nombre": "Levís",
+    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
+    "ubicacion": "Calle 123",
+    "horario": "11am/11pm",
+    "caracter": "Local de una de las marcas mas caras de Argentia",
+    "stock": [
+      {
+        "id": 1,
+        "prenda": "Jeans azul",
+        "description": "Jeans de color azul y rotos.",
+        "descuento": "169.00",
+        "precio_viejo": "221.00",
+        "tipo":"woman",
+        "image": "https://levisarg.vtexassets.com/arquivos/ids/874860/055101300_1.jpg?v=638596707395100000"
+      },
+      {
+        "id": 2,
+        "prenda": "Jeans azules",
+        "description": "Jeans de color azul y sanos.",
+        "descuento": "149.00",
+        "precio_viejo": "202.750",
+        "tipo":"man",
+        "image": "https://levisarg.vtexassets.com/arquivos/ids/872721/0451148630_1.jpg?v=638442962079130000"
+      },
+      {
+        "id": 3,
+        "prenda": "Jeans azules oscuros",
+        "description": "Jeans de color azul  oscuros y sanos.",
+        "descuento": "178.800",
+        "precio_viejo": "229.500",
+        "tipo":"woman",
+        "image": "https://levisarg.vtexassets.com/arquivos/ids/872657-800-auto?v=638442137194170000&width=800&height=auto&aspect=true"
+      },
+      {
+        "id": 4,
+        "prenda": "Jeans azules",
+        "description": "Jeans de color azul  claros y sanos.",
+        "descuento": "254.600",
+        "precio_viejo": "310.250",
+        "tipo":"man",
+        "image": "https://levisarg.vtexassets.com/arquivos/ids/874322/A467700210_1.jpg?v=638548511184130000"
+      }
+    ],
+    "resenas": [
+      {
+        "name": "Maria",
+        "plato": "Asado",
+        "calif": "4",
+        "comentario": "Me encanta el sabor de la carne asada en Argentina.",
+        "foto": "https://randomuser.me/api/portraits/women/41.jpg"
+      },
+      {
+        "name": "Juan",
+        "plato": "Empanadas",
+        "calif": "5",
+        "comentario": "Las empanadas argentinas son deliciosas, especialmente las de carne.",
+        "foto": "https://randomuser.me/api/portraits/men/42.jpg"
+      },
+      {
+        "name": "Luisa",
+        "plato": "Milanesa",
+        "calif": "3",
+        "comentario": "La milanesa argentina es muy sabrosa, aunque a veces puede ser un poco pesada.",
+        "foto": "https://randomuser.me/api/portraits/women/43.jpg"
+      },
+      {
+        "name": "Pedro",
+        "plato": "Matambre",
+        "calif": "4",
+        "comentario": "El matambre a la pizza es una delicia típica de Argentina.",
+        "foto": "https://randomuser.me/api/portraits/men/44.jpg"
+      },
+      {
+        "name": "Ana",
+        "plato": "Locro",
+        "calif": "5",
+        "comentario": "El locro argentino es un plato muy reconfortante, especialmente en invierno.",
+        "foto": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      {
+        "name": "Carlos",
+        "plato": "Ñoquis",
+        "calif": "4",
+        "comentario": "Los ñoquis argentinos son una tradición en mi familia, siempre los comemos los 29 de cada mes.",
+        "foto": "https://randomuser.me/api/portraits/men/46.jpg"
+      },
+      {
+        "name": "Laura",
+        "plato": "Humita",
+        "calif": "3",
+        "comentario": "La humita argentina es una delicia hecha a base de choclo.",
+        "foto": "https://randomuser.me/api/portraits/women/47.jpg"
+      },
+      {
+        "name": "Diego",
+        "plato": "Provoleta",
+        "calif": "5",
+        "comentario": "La provoleta argentina es una excelente opción como entrada en un asado.",
+        "foto": "https://randomuser.me/api/portraits/men/48.jpg"
+      },
+      {
+        "name": "Gabriela",
+        "plato": "Tarta",
+        "calif": "4",
+        "comentario": "Las tartas argentinas son muy versátiles y se pueden hacer con diferentes rellenos.",
+        "foto": "https://randomuser.me/api/portraits/women/49.jpg"
+      },
+      {
+        "name": "Fernando",
+        "plato": "Dulce de Leche",
+        "calif": "5",
+        "comentario": "El dulce de leche argentino es incomparable, lo uso para rellenar tortas y panqueques.",
+        "foto": "https://randomuser.me/api/portraits/men/50.jpg"
+      }
+    ]
+  }
+
+
 ]
+
