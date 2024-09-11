@@ -6,7 +6,7 @@ let lista=[]
 
 //conecto con el archivo json
 //fetch('UBICACION - puede ser local o remoto')
-fetch('json/local.json')
+fetch('./json/local.json')
     //espero respuesta
     .then(response => {
         //almacena los datos obtenidos convertidos a json
@@ -20,7 +20,7 @@ fetch('json/local.json')
             console.log(data[i].nombre)
             console.log(data[i].id)
             document.querySelector('.restaurantes').innerHTML +=
-                `<a href="../index.html" class="resto" id="${data[i].id}" onclick="id_local(id)" >
+                `<a href="./index.html" class="resto" id="${data[i].id}" onclick="id_local(id)" >
             <article>
                 <div class="imagen_resto">
                 <img src="${data[i].urllogo}" class="ajustar" alt="" >

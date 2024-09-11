@@ -4,7 +4,7 @@ function guardarIDPrenda(idPrenda) {
     idsGuardados = "";
   }
   idsGuardados = idsGuardados ? `${idsGuardados},${idPrenda}` : idPrenda;
-  localStorage.setItem("ids_prendas", "");
+  localStorage.setItem("ids_prendas", idsGuardados);
 }
 
 
@@ -16,7 +16,7 @@ prendas = prendas ? prendas.split(',') : [];
 
 console.log(prendas);
 
-fetch('../json/local.json')
+fetch('./json/local.json')
   .then(response => response.json())
   .then(data => {
     data.forEach(e => {

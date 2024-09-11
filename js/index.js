@@ -9,7 +9,7 @@ function id_tipo(id) {
 
 let stock = {}
 
-fetch('json/local.json')
+fetch('./json/local.json')
 
     .then(response => {
 
@@ -30,7 +30,7 @@ fetch('json/local.json')
                     document.querySelector('.article').innerHTML +=
 
                         `    
-                        <a class="card color" href="../producto.html" onclick="data_id(${stock.id})" >
+                        <a class="card color" href="./producto.html" onclick="data_id(${stock.id})" >
                             
                             <div class="cabecera">
                                 <img src="${stock.image}" alt="">

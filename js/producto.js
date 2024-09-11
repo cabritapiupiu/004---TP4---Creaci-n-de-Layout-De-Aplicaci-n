@@ -2,7 +2,7 @@ function stock(id) {
     localStorage.setItem("data_stock", id);
 }
 
-fetch('../json/local.json')
+fetch('./json/local.json')
     .then(response => response.json())
         .then(data => {
             data.forEach(e => {
