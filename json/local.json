@@ -2,15 +2,18 @@
   {
     "id": 1,
     "nombre": "Urban Threads",
-    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
-    "ubicacion": "Calle 123",
+    "urllogo": "https://images-platform.99static.com/83gQG5FH4fWR5N81HcGmMKL_kD0=/100x94:900x894/500x500/top/smart/99designs-contests-attachments/106/106999/attachment_106999784",
+    "ubicacion": "Las Araucarias 1450, B1667FUD Tortuguitas, Provincia de Buenos Aires",
     "horario": "11am/11pm",
+    "costo":"3",
+    "estrellas":"3",
+    "valoracion":"4",
     "caracter": "Tienda de ropa moderna y urbana que ofrece una selección cuidada de prendas de diseñadores emergentes. Aquí encontrarás desde camisetas gráficas hasta jeans de alta calidad, todo pensado para quienes buscan un estilo único y vanguardista.",
     "stock": [
       {
         "id": 1,
         "prenda": "Naruto",
-        "description": "Esta remera trae estampada al protagonista de uno de los animes john más reconocidos hasta la época, nada más y nada menos que Naruto.",
+        "description": "Esta remera trae estampada al protagonista de un anime",
         "descuento": "25.99",
         "precio_viejo": "40.00",
         "tipo":"woman",
@@ -129,9 +132,12 @@
   {
     "id": 2,
     "nombre": "Vans",
-    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
-    "ubicacion": "Calle 123",
-    "horario": "11am/11pm",
+    "urllogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZxvlXRp1_2t60ADF0-CXmB1BhsS4QlV-ag&s",
+    "ubicacion": "Av. Gaona 2461, C1416 Cdad. Autónoma de Buenos Aires",
+    "horario": "11:00 AM / 11:00 PM",
+    "costo":"3",
+    "estrellas":"3",
+    "valoracion":"4",
     "caracter": "El rancho del profe mas capo que pudo aber.",
     "stock": [
       {
@@ -259,9 +265,12 @@
     "nombre": "Canterbury",
     "woman": "false",
     "man": "true",
-    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
-    "ubicacion": "Calle 123",
-    "horario": "11am/11pm",
+    "urllogo": "https://preview.redd.it/8hsvg7sevvj51.jpg?auto=webp&s=5e8d86a8f0294114c1146ebc793e4424b7df36c0",
+    "ubicacion": "Av. Gral. Juan Domingo Perón 7245, B1621 Benavidez, Provincia de Buenos Aires",
+    "horario": "8:00 AM / 9:00 PM",
+    "costo":"3",
+    "estrellas":"3",
+    "valoracion":"4",
     "caracter": "Local de una de las marcas mas caras de Argentia",
     "stock": [
       {
@@ -271,7 +280,7 @@
         "descuento": "177.00",
         "precio_viejo": "221.00",
         "tipo":"woman",
-        "image": "https://mmgrim2.azureedge.net/MediaFiles/Grimoldi/2024/8/15/9905372_800.jpg"
+        "image": "https://canterbury.com.ar/storage/photos/shares/QE22A002FK2.png"
       },
       {
         "id": 2,
@@ -285,7 +294,7 @@
       {
         "id": 3,
         "prenda": "Botines Rojos",
-        "description": "Botines rojos que si  notiene descuento no como los botines azules XD.",
+        "description": "Botines rojos que si  notiene descuento.",
         "descuento": "178.800",
         "precio_viejo": "229.500",
         "tipo":"woman",
@@ -379,9 +388,12 @@
   {
     "id": 4,
     "nombre": "Levís",
-    "urllogo": "https://lafrikileria.com/blog/wp-content/uploads/2022/12/dia-mundial-del-otaku-se-celebra-15-diciembre-friki-geek-nerd-640x427.jpg",
-    "ubicacion": "Calle 123",
-    "horario": "11am/11pm",
+    "urllogo": "https://i.pinimg.com/736x/59/81/32/598132b13e0571aa5ef4f51d4c3f6489.jpg",
+    "ubicacion": " Las Magnolias 754, B1629 Pilar, Provincia de Buenos Aires",
+    "horario": "9:30 AM / 8:00 PM",
+    "costo":"3",
+    "estrellas":"3",
+    "valoracion":"4",
     "caracter": "Local de una de las marcas mas caras de Argentia",
     "stock": [
       {
